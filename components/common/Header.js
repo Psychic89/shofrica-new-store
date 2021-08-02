@@ -131,7 +131,7 @@ class Header extends Component {
     this.toggleAddToCartAnimation();
     setTimeout(() => {
       this.toggleAddToCartAnimation();
-    }, 3000)
+  }, 3000)
   }
 
   renderLoginLogout() {
@@ -141,34 +141,34 @@ class Header extends Component {
     if (loggedIn) {
       return (
         <div className="d-flex align-items-center">
-          { customer && customer.firstname && (
-            <span className="mr-2 font-weight-regular">
-              Hi, { customer.firstname }!
-            </span>
-          ) }
-          <Link href="/account">
-            <a className="font-color-black mx-2">
-              My account
-            </a>
-          </Link>
-          <button
-            className="bg-transparent mr-2 font-color-black font-weight-semibold"
-            type="button"
-            onClick={this.handleLogout}
-          >
-            Logout
-          </button>
-        </div>
-      );
+        { customer && customer.firstname && (
+        <span className="mr-2 font-weight-regular">
+        Hi, { customer.firstname }!
+      </span>
+    ) }
+    <Link href="/account">
+        <a className="font-color-black mx-2">
+        My account
+      </a>
+      </Link>
+      <button
+      className="bg-transparent mr-2 font-color-black font-weight-semibold"
+      type="button"
+      onClick={this.handleLogout}
+    >
+      Logout
+      </button>
+      </div>
+    );
     }
 
     return (
       <Link href="/login">
-        <a className="font-color-black login">
-          Login
-        </a>
+      <a className="font-color-black login">
+      Login
+      </a>
       </Link>
-    );
+  );
   }
 
   render() {
@@ -177,92 +177,92 @@ class Header extends Component {
 
     return (
       <header className="position-fixed top-0 left-0 right-0 font-weight-semibold no-print">
-        <Cart isOpen={showCart} toggle={value => this.toggleCart(value)} />
-        <div
-          ref={this.header}
-          className={`d-flex header align-items-center justify-content-between position-relative ${
-            transparent ? '' : 'invert'
-          }`}
-        >
-          <div className="d-none d-sm-flex">
-            <Link href="/collection">
-              <a href="/collection" className="mr-4 font-color-black">Shop</a>
-            </Link>
-            <Link href="/about">
-              <a href="/about" className="font-color-black">
-                About
-              </a>
-            </Link>
-          </div>
-          <div className="logo-container">
-            <img
-              src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
-              onClick={this.toggleMobileMenu}
-              className="w-32 mr-1 d-block d-sm-none"
-              alt="Menu icon"
-            />
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
-                  alt="Logo"
-                />
-              </a>
-            </Link>
-          </div>
-          <div className="d-flex">
-            { process.browser && this.renderLoginLogout() }
-            <div
-              className="position-relative cursor-pointer"
-              onClick={this.toggleCart}
-            >
-              <Animation isStopped={ this.state.playAddToCartAnimation } />
-              <div className="cart-count position-absolute font-size-tiny font-weight-bold">
-                {cart.total_items}
-              </div>
-            </div>
-          </div>
-        </div>
+      <Cart isOpen={showCart} toggle={value => this.toggleCart(value)} />
+    <div
+    ref={this.header}
+    className={`d-flex header align-items-center justify-content-between position-relative ${
+      transparent ? '' : 'invert'
+      }`}
+  >
+  <div className="d-none d-sm-flex">
+      <Link href="/collection">
+      <a href="/collection" className="mr-4 font-color-black">Shop</a>
+      </Link>
+      <Link href="/about">
+      <a href="/about" className="mr-4 font-color-black">
+      About
+      </a>
+      </Link>
+      </div>
+      <div className="logo-container">
+      <img
+    src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
+    onClick={this.toggleMobileMenu}
+    className="w-32 mr-1 d-block d-sm-none"
+    alt="Menu icon"
+      />
+      <Link href="/">
+      <a>
+      <img
+    src="/images/commerce.svg"
+    className="logo cursor-pointer"
+    alt="Logo"
+      />
+      </a>
+      </Link>
+      </div>
+      <div className="d-flex">
+      { process.browser && this.renderLoginLogout() }
+  <div
+    className="position-relative cursor-pointer"
+    onClick={this.toggleCart}
+  >
+  <Animation isStopped={ this.state.playAddToCartAnimation } />
+    <div className="cart-count position-absolute font-size-tiny font-weight-bold">
+      {cart.total_items}
+  </div>
+    </div>
+    </div>
+    </div>
 
-        {/* Mobile Menu */}
-        <Transition in={showMobileMenu} timeout={duration}>
-          {state => (
-            <div
-              className="d-sm-none position-fixed left-0 right-0 overflow-hidden"
-              style={{
-                ...defaultStyle,
-                ...transitionStyles[state],
-                // Prevent gap being shown at bottom of mobile menu
-                top: '1em'
-              }}
-            >
-              <div
-                className="position-absolute left-0 right-0 h-100vh mobile-menu-inner bg-black700 d-flex flex-column justify-content-center"
-                style={{
-                  // Prevent mobile menu items (e.g. Home) being hidden behind navbar on small screen heights (e.g. iPhone4 landscape of 320px height)
-                  top: '4em'
-                }}
-              >
-                {mobileMenuLinks.map((item, i) => (
-                  <a
-                    key={i}
-                    href={item.link}
-                    className="d-block mb-4 font-size-heading font-color-white text-center"
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-            </div>
-          )}
-        </Transition>
-      </header>
-    );
+    {/* Mobile Menu */}
+  <Transition in={showMobileMenu} timeout={duration}>
+      {state => (
+      <div
+    className="d-sm-none position-fixed left-0 right-0 overflow-hidden"
+    style={{
+    ...defaultStyle,
+    ...transitionStyles[state],
+        // Prevent gap being shown at bottom of mobile menu
+        top: '1em'
+    }}
+  >
+  <div
+    className="position-absolute left-0 right-0 h-100vh mobile-menu-inner bg-black700 d-flex flex-column justify-content-center"
+    style={{
+      // Prevent mobile menu items (e.g. Home) being hidden behind navbar on small screen heights (e.g. iPhone4 landscape of 320px height)
+      top: '4em'
+    }}
+  >
+    {mobileMenuLinks.map((item, i) => (
+    <a
+      key={i}
+      href={item.link}
+      className="d-block mb-4 font-size-heading font-color-white text-center"
+        >
+        {item.name}
+    </a>
+    ))}
+  </div>
+    </div>
+  )}
+  </Transition>
+    </header>
+  );
   }
 }
 
 export default connect(
   state => state,
-  { clearCustomer },
+{ clearCustomer },
 )(Header);
