@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d69d23a-2cf4-42d5-ad37-b518e98abf9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/homepage/HomeBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/homepage/HomeBanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/collection/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/1_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/collection/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/2_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/collection/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/collection/3_old.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/explore-banner-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/explore-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/explore-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insta/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/insta/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insta/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/insta/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insta/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/insta/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insta/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/insta/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/insta/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/insta/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/checkout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/checkout/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,24 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/productAssets/VariantSelector.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/productAssets/SuggestedProducts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/productAssets/ReviewStars.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,13 +64,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/homepage/HomeBanner.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/checkout/confirm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/checkout/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,6 +161,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/sitemap.xml" />
         <option value="$PROJECT_DIR$/components/homepage/HomeBanner.js" />
+        <option value="$PROJECT_DIR$/pages/checkout/index.js" />
       </list>
     </option>
   </component>
@@ -188,8 +182,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="361" />
-    <option name="width" value="1079" />
+    <option name="x" value="363" />
+    <option name="width" value="1077" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectView">
@@ -260,6 +254,12 @@
             <path>
               <item name="shofrica-new-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="shofrica-new-store" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="checkout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shofrica-new-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shofrica-new-store" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627933984333" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627934082379" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -325,15 +325,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627911757419</updated>
-      <workItem from="1627911771390" duration="8841000" />
+      <workItem from="1627911771390" duration="9470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8841000" />
+    <option name="totallyTimeSpent" value="9470000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="361" y="0" width="1079" height="900" extended-state="6" />
+    <frame x="763" y="0" width="677" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -343,10 +343,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="npm" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25747347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42047244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5228916" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.5228916" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -377,12 +377,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/scss/pages/_checkout.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/scss/pages/_about.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/ccFormat.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -677,6 +671,25 @@
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/checkout/confirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/checkout/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
