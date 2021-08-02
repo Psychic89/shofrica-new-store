@@ -10,19 +10,19 @@ import CategoryBanner from '../components/homepage/CategoryBanner';
 import ProductsBanner from '../components/homepage/ProductsBanner';
 
 const Home = () => (
-  <Root transparentHeader={true}>
-    <Head>
-      <title>Home | commerce</title>
-    </Head>
+<Root transparentHeader={true}>
+  <Head>
+  <title>Shofrica | Everyday handmade jewelry to fit your life and style</title>
+</Head>
 
-    <HeroSection />
-    <HomeBanner />
-    <CategoryBanner />
-    <ProductsBanner />
-    <ExploreBanner />
-    <SocialMedia />
-    <Footer />
-  </Root>
+<HeroSection />
+<HomeBanner />
+<CategoryBanner />
+<ProductsBanner />
+<ExploreBanner />
+<SocialMedia />
+<Footer />
+</Root>
 );
 
 export default Home;

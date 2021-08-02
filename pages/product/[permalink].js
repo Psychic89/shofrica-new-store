@@ -15,7 +15,7 @@ import CategoryList from '../../components/products/CategoryList';
 import reduceProductImages from '../../lib/reduceProductImages';
 
 const detailView = `<p>
-  Slightly textured fabric with tonal geometric design and a bit of shine
+  Handmade by artisans in Kenya
 </p>`;
 
 class Product extends Component {
