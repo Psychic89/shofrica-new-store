@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shofricanewstore-dev-155126-authRole",
+      "UnauthRoleArn": "arn:aws:iam::398207638253:role/amplify-shofricanewstore-dev-155126-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::398207638253:role/amplify-shofricanewstore-dev-155126-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-shofricanewstore-dev-155126-deployment",
+      "UnauthRoleName": "amplify-shofricanewstore-dev-155126-unauthRole",
+      "StackName": "amplify-shofricanewstore-dev-155126",
+      "StackId": "arn:aws:cloudformation:eu-central-1:398207638253:stack/amplify-shofricanewstore-dev-155126/bc7cb4c0-f398-11eb-a606-0a334edc70a6",
+      "AmplifyAppId": "dwfd842aps091"
+    }
+  }
+}
