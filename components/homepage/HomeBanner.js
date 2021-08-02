@@ -8,7 +8,7 @@ export default function HomeBanner() {
   className="font-size-display1 mt-5 text-center mx-auto text-uppercase"
   style={{ maxWidth: '53rem' }}
 >
-  Handmade jewelry designed to be worthy of the women who wear it!
+  Handmade jewelry designed to be worthy of the women who wear it.
   </p>
   <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
     <Link href="/about">
