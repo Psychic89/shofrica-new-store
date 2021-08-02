@@ -6,33 +6,33 @@ const reviews = [
   {
     stars: '5',
     title: 'Perfect',
-    description: 'Great fit and feel. They elevate lounging to the next level!',
+    description: 'I adore everything Shofrica do! The pieces are lovely and unique and I get compliments whenever I wear one of their designs!',
     reviewBy: 'Heidi C.',
-    date: 'December, 2019'
+    date: 'April, 2021'
   },
   {
     stars: '3.5',
     title: 'So comfortable!',
     description:
-      'I sized up just in case and kind of wished I hadn’t. Very comfortable and I live in them exclusively during the weekend.',
-    reviewBy: 'Heidi C.',
-    date: 'December, 2019'
+      'I’m always pleased with the quality and customer service from Shofrica. My most recent purchases include the Penny and Moon rings and they’re beautiful. I wear them every day.',
+    reviewBy: 'Valerie S.',
+    date: 'May, 2021'
   },
   {
     stars: '4',
-    title: 'Comfy but thin',
+    title: 'Always a pleasure',
     description:
-      'Comfortable but kinda thin for a pant. I typically wear a 32/33 pant and had to size up to XL for these to not fit like a legging. Have been wearing pretty solid for a month of so and there\'s some pilling, but not a lot. Good price for OK product.',
-    reviewBy: 'Heidi C.',
-    date: 'December, 2019'
+      'I\'ve ordered several pieces of fine jewelry from Shofrica and I have been happy with all my purchases. Their customer service is excellent.',
+    reviewBy: 'Amy F.',
+    date: 'July, 2021'
   },
   {
     stars: '5',
     title: 'So comfortable!',
     description:
-      'I sized up just in case and kind of wished I hadn’t. Very comfortable and I live in them exclusively during the weekend.',
-    reviewBy: 'Heidi C.',
-    date: 'December, 2019'
+      'Super reasonable pricing! Bought a present from them and it was super easy to return and resize. She loved the necklace as well.',
+    reviewBy: 'Jenny H.',
+    date: 'August, 2021'
   }
 ];
 
